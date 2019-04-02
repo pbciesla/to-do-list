@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="css/todo.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Varela+Round" rel="stylesheet">
+    <script type="text/javascript" src="js/todo.js"></script>
+  </head>
+  
+  <body>
+    <h1>To do list</h1>
+    <p>
+      <input type="text" id="myInput" value="New task">
+      <button type="button" onclick="addTask()">Add</button>
+    </p>
+    <ul id="taskList">
+      <li id="task" onclick="done(this)">Add new task</li>
+    </ul>
+  </body>
+</html>
